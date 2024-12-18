@@ -1,0 +1,30 @@
+// Colors
+$primary-color: #e30613; // Main red color
+$secondary-color: #333333; // Dark gray for text
+$text-color: #000000; // Black for text
+$background-color: #ffffff; // White background
+$light-gray: #f8f9fa; //Light gray background for sections
+$border-color: #dddddd; //Color of borders and dividers
+
+// Fonts
+$font-family-main: 'Gilroy', Arial, sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.5;
+
+// Breakpoints
+$breakpoint-xs: 390px; // Small smartphone
+$breakpoint-sm: 480px; // Middle and large smartphones
+$breakpoint-md: 768px; // Tablet
+$breakpoint-lg: 1024px; // Laptop and PC
+$breakpoint-xl: 1440px; // Large screens (Retina)
+
+// Indents and sizes
+$container-padding: 20px; // Side padding on mobile devices
+$gap-sm: 10px; // Small indent between elements
+$gap-md: 20px; // Middle indent
+$gap-lg: 40px; // Large indent
+
+// Rounding radius
+$border-radius-sm: 8px; // Small
+$border-radius-md: 12px; // Middle
+$border-radius-lg: 16px; // Large
