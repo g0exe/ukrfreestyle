@@ -1,10 +1,10 @@
 // Colors
-$primary-color: #e30613; // Main red color
-$secondary-color: #333333; // Dark gray for text
+$accent-color: #e30613; // Accent color
+$secondary-color: #eff2f7; // Secondary color
 $text-color: #000000; // Black for text
 $background-color: #ffffff; // White background
-$light-gray: #f8f9fa; //Light gray background for sections
-$border-color: #dddddd; //Color of borders and dividers
+$light-gray: #eaeaea; // Light gray
+$dark-gray: #a9a9a9; // Dark ray
 
 // Fonts
 $font-family-main: 'Gilroy', Arial, sans-serif;
@@ -20,7 +20,7 @@ $breakpoint-xl: 1440px; // Large screens (Retina)
 
 // Indents and sizes
 $container-padding: 20px; // Side padding on mobile devices
-$gap-sm: 10px; // Small indent between elements
+$gap-sm: 20px; // Small indent between elements
 $gap-md: 20px; // Middle indent
 $gap-lg: 40px; // Large indent
 
