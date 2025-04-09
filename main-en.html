@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="alternate" hreflang="en" href="https://site.com/main-en.html" />
+    <link rel="alternate" hreflang="uk" href="https://site.com/main-ua.html" />
+
+    <title>UkrFreestyle</title>
+    <meta
+      name="description"
+      content="Professional freestyle football team. Academy. Freestyle football in Ukraine. Book a freestyle football show: ☎️ +38 (068) 593-12-46"
+    />
+    <meta
+      property="og:title"
+      content="Best Freestyle Football in Ukraine - UkrFreestyle"
+    />
+    <meta
+      property="og:description"
+      content="Professional freestyle football team. Academy. Freestyle football in Ukraine. Book a freestyle football show: ☎️ +38 (068) 593-12-46"
+    />
+    <meta property="og:site_name" content="UkrFreestyle" />
+    <script src="/menu.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <button class="header-menu__btn" id="menu-open">
+          <img src="./images/icons/menu.svg" alt="menu-button" />
+        </button>
+        <a href="/main-en.html" class="header-logo"
+          ><img src="./images/UF-logo_2-1.png" alt="UF-logo"
+        /></a>
+        <nav class="header-nav">
+          <a href="/about-en.html">About</a><a href="/news-en.html">News</a
+          ><a href="/training-en.html">Training</a
+          ><a href="/clients-en.html">Clients</a
+          ><a href="/contact-en.html">Contact</a>
+        </nav>
+        <div class="header-btns">
+          <a href="tel:+380685931246" class="header-connect">Get in touch</a>
+          <a href="/main-ua.html" class="header-lang">UA</a>
+        </div>
+      </div>
+    </header>
+    <menu>
+      <div class="header-mobile">
+        <div class="header-mobile-top">
+          <button class="header-menu__btn" id="menu-close">
+            <img src="./images/icons/menu.svg" alt="menu-button" />
+          </button>
+          <a href="/main-ua.html" class="header-logo"
+            ><img src="./images/UF-logo_2-1.png" alt="UF-logo"
+          /></a>
+          <a href="/main-ua.html" class="header-lang">UA</a>
+        </div>
+        <nav class="header-nav-mobile">
+          <a href="/about-en.html">About</a><a href="/news-en.html">News</a
+          ><a href="/training-en.html">Training</a
+          ><a href="/clients-en.html">Clients</a
+          ><a href="/contact-en.html">Contact</a>
+        </nav>
+        <div class="header-mobile-bottom">
+          <div class="footer-contacts">
+            <div class="footer-contacts__item">
+              <img src="./images/icons/phone.svg" alt="phone" />
+              <a href="tel:+380685931246">+38 (068) 593-12-46</a>
+            </div>
+            <div class="footer-contacts__item">
+              <img src="./images/icons/mail.svg" alt="mail" />
+              <a href="mailto:ukrfreestyle@gmail.com">ukrfreestyle@gmail.com</a>
+            </div>
+          </div>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/UkrFreestyle/"
+              ><img src="./images/icons/fb.svg" alt="facebook" /></a
+            ><a href="https://t.me/ukrfreestyle_team"
+              ><img src="./images/icons/tg.svg" alt="telegram" /></a
+            ><a href="https://www.instagram.com/ukrfreestyle/"
+              ><img src="./images/icons/in.svg" alt="instagram" /></a
+            ><a href="https://www.youtube.com/ukrfreestyle"
+              ><img src="./images/icons/yt.svg" alt="youtube"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </menu>
+    <main>
+      <section class="hero">
+        <div class="hero-stack">
+          <div class="hero-card first">
+            <h1>UkrFreestyle</h1>
+            <p>
+              Freestyle Football is a sport on the verge of art, an endless
+              source of creativity born from exceptional mastery. We are the
+              first professional football freestyle team in Ukraine. Welcome to
+              our world.
+            </p>
+          </div>
+
+          <div class="hero-card second" id="videoCard">
+            <div class="content-video">
+              <img src="./images/icons/video.svg" alt="" />
+              <h1>Showreel</h1>
+              <p>Don’t believe us, just watch.</p>
+            </div>
+            <video id="videoPreview" muted>
+              <source src="./images/hero/Showreel.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+          <div class="modal" id="videoModal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <iframe
+                src=""
+                frameborder="0"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="hero-card third">
+            <h1>Hовини 1</h1>
+          </div>
+
+          <div class="hero-card fourth">
+            <h1>Hовини 2</h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- Counter -->
+      <section class="counter-section">
+        <h2 style="display: none">COUNTER</h2>
+        <div class="counter-main">
+          <div class="counter-item">
+            <span data-target="16">0</span>
+            <p>years</p>
+          </div>
+          <div class="counter-item">
+            <span data-target="20">0</span>
+            <p>countries</p>
+          </div>
+          <div class="counter-item">
+            <span data-target="162">0</span>
+            <p>brands</p>
+          </div>
+          <div class="counter-item">
+            <span data-target="907">0</span>
+            <p>events</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Squad -->
+      <section class="squad-section">
+        <h2>Squad</h2>
+        <div class="squad">
+          <div class="squad-carousel">
+            <a class="squad-card" href="/dag-en.html">
+              <img src="./images/dag.webp" alt="Squad member" />
+            </a>
+            <a class="squad-card" href="/samoded-en.html">
+              <img src="./images/samoded.webp" alt="Squad member" />
+            </a>
+            <a class="squad-card" href="/fan-en.html">
+              <img src="./images/fan.webp" alt="Squad member" />
+            </a>
+            <a class="squad-card" href="/akrisha-en.html">
+              <img src="./images/akrisha.webp" alt="Squad member" />
+            </a>
+            <a class="squad-card" href="/imel-en.html">
+              <img src="./images/imel.webp" alt="Squad member" />
+            </a>
+            <a class="squad-card" href="/zhura-en.html">
+              <img src="./images/zhura.webp" alt="Squad member" />
+            </a>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="services-section">
+        <h2>Services</h2>
+        <div class="services">
+          <a href="/service-ads-en.html" class="service-card service-1">
+            <h3>Advertising projects</h3>
+            <p>Participating in filming and choreographing football tricks.</p>
+            <button class="service-btn">
+              <img src="./images/icons/arrow-up.svg" alt="" />
+            </button>
+          </a>
+          <a href="/service-performance-en.html" class="service-card service-2">
+            <h3>Live performances</h3>
+            <p>
+              Football freestyle shows where every trick is an emotional
+              explosion.
+            </p>
+            <button class="service-btn">
+              <img src="./images/icons/arrow-up.svg" alt="" />
+            </button>
+          </a>
+          <a href="/service-kids-en.html" class="service-card service-3">
+            <h3>Kids’ Events & Workshops</h3>
+            <p>Creating unforgettable moments and unlocking talents.</p>
+            <button class="service-btn">
+              <img src="./images/icons/arrow-up.svg" alt="" />
+            </button>
+          </a>
+          <a href="/service-sport-en.html" class="service-card service-4">
+            <h3>Organizing sporting events</h3>
+            <p>We create unforgettable events that inspire and unite.</p>
+            <button class="service-btn">
+              <img src="./images/icons/arrow-up.svg" alt="" />
+            </button>
+          </a>
+          <a href="/service-brand-en.html" class="service-card service-5">
+            <h3>Brand presentations and promotions</h3>
+            <p>Clients crave emotions, and we deliver them.</p>
+            <button class="service-btn">
+              <img src="./images/icons/arrow-up.svg" alt="" />
+            </button>
+          </a>
+          <a href="/service-media-en.html" class="service-card service-6">
+            <h3>Cooperation with the media</h3>
+            <p>We attract the audience’s attention.</p>
+            <button class="service-btn">
+              <img src="./images/icons/arrow-up.svg" alt="" />
+            </button>
+          </a>
+        </div>
+      </section>
+
+      <!-- Partners -->
+      <section class="partners-section">
+        <h2 class="partners-title">Partners</h2>
+        <div class="partners">
+          <a
+            class="logo-container"
+            href="https://www.adidas.ua/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/partners/adidas.png" alt="Adidas" class="logo" />
+          </a>
+          <a
+            class="logo-container"
+            href="https://www.redbull.com/ua-uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/partners/rbss.png" alt="RBBS" class="logo" />
+          </a>
+          <a
+            class="logo-container"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./images/partners/street-culture.svg"
+              alt="Street Culture"
+              class="logo"
+            />
+          </a>
+          <a
+            class="logo-container"
+            href="https://thewffa.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/partners/wffa.png" alt="WFFA" class="logo" />
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-main">
+        <div class="footer-main__top">
+          <a href="/main-en.html" class="footer-logo"
+            ><img src="./images/UF-logo_2-1.png" alt="UF-logo"
+          /></a>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/UkrFreestyle/"
+              ><img src="./images/icons/fb.svg" alt="facebook" /></a
+            ><a href="https://t.me/ukrfreestyle_team"
+              ><img src="./images/icons/tg.svg" alt="telegram" /></a
+            ><a href="https://www.instagram.com/ukrfreestyle/"
+              ><img src="./images/icons/in.svg" alt="instagram" /></a
+            ><a href="https://www.youtube.com/ukrfreestyle"
+              ><img src="./images/icons/yt.svg" alt="youtube"
+            /></a>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-main__bottom">
+          <div class="footer-contacts">
+            <div class="footer-contacts__item">
+              <img src="./images/icons/phone.svg" alt="phone" />
+              <a href="tel:+380685931246">+38 (068) 593-12-46</a>
+            </div>
+            <div class="footer-contacts__item">
+              <img src="./images/icons/mail.svg" alt="mail" />
+              <a href="mailto:ukrfreestyle@gmail.com">ukrfreestyle@gmail.com</a>
+            </div>
+          </div>
+          <nav class="footer-nav">
+            <a href="/about-en.html">About</a><a href="/news-en.html">News</a
+            ><a href="/training-en.html">Training</a
+            ><a href="clients-en.html">Clients</a
+            ><a href="/contact-en.html">Contact</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom__links">
+          Website materials may be used only with UkrFreestyle's permission and
+          an active link to <a href="#">ukrfreestyle.com</a>
+        </div>
+        <span>© 2024 Creation All Rights Reserved</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
